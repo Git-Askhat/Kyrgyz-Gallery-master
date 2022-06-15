@@ -13,11 +13,18 @@ export default function VideoInput(props: any) {
     const file: any = event.target.files[0];
     const url: any = URL.createObjectURL(file);
     setSource(url);
-    localStorage.setItem('uploadedFile', url);
+    localStorage.setItem('uploadedVideo', url);
+    if (typeof window !== 'undefined') {
+      window.location = '/upload-image';
+    }
   };
 
   const handleChoose = (event: any) => {
     inputRef.current.click();
+    localStorage.setItem('uploadedVideo', url);
+    if (typeof window !== 'undefined') {
+      window.location = '/upload-image';
+    }
   };
 
   return (

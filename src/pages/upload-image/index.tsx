@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Navbar from '../../components/navbar/index';
 import img from '../../assets/images/galleryImg/img14.jpg';
 
 export default function index() {
+  const imageDefault = localStorage.getItem('uploadedImage');
+
+  const [image, setImage] = useState();
+
+  useEffect(() => {
+    setImage(imageDefault);
+    console.log('It is Loading');
+  }, []);
+
+  console.log('image', image);
+
   return (
     <div>
       <Navbar isSolidNav={true} />
       <Container>
         <DivImage>
-            <img src={img} alt='' className='image'/>
+          {image && <img src={image} alt='' className='image' />}
         </DivImage>
         <DivInfo></DivInfo>
       </Container>

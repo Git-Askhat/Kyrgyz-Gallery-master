@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageUploading, { ImageListType } from 'react-images-uploading';
 import styled from 'styled-components';
-import SvgUploadImage from "../../../assets/svg/upload_image";
+import SvgUploadImage from '../../../assets/svg/upload_image';
 
 export const UploadImage = () => {
   const [images, setImages] = React.useState([]);
@@ -14,7 +14,11 @@ export const UploadImage = () => {
     // data for submit
     setImages(imageList as never[]);
     console.log('imageList[0]', imageList[0]);
-    localStorage.setItem("uploadedFile" ,imageList[0]?.dataURL)
+    // localStorage.setItem('uploadedImage', imageList[0]?.dataURL);
+    localStorage.setItem(
+      'uploadedImage',
+      'https://thumbs.dreamstime.com/b/lettering-hello-vector-calligraphy-word-hello-hello-handwritten-font-word-hello-lettering-hello-vector-calligraphy-word-hello-164263945.jpg'
+    );
     if (typeof window !== 'undefined') {
       window.location = '/upload-image';
     }
@@ -47,7 +51,6 @@ export const UploadImage = () => {
             </UploadButton>
             &nbsp;
             {/* <button onClick={onImageRemoveAll}>Remove all images</button> */}
-
             {/* {imageList.map((image, index) => (
               <div key={index} className='image-item'>
                 <img src={image.dataURL} alt='' width='100' />
@@ -57,7 +60,6 @@ export const UploadImage = () => {
                 </div>
               </div>
             ))} */}
-
           </div>
         )}
       </ImageUploading>
