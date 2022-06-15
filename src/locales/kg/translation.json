@@ -1,0 +1,34 @@
+{
+    "photos": "Сүрөттөр",
+    "videos": "Видеолор",
+    "vectors": "Векторлор",
+    "3d-models": "3D моделдер",
+    "language": "Тил алмаштыруу",
+    "sign-in": "Кирүү",
+    "sign-up": "Катталуу",
+    "about-us": "Биз жөнүндө",
+    "upload": "Жүктө",
+    "fqa": "FQA",
+    "search_text": "Сүрөт, видео, вектор жана 3D-моделдерди издөө",
+
+
+    "chuy": "Чүй",
+    "issyk_kul": "Иссык-Көл",
+    "naryn": "Нарын",
+    "osh": "Ош",
+    "batken": "Баткен",
+    "talas": "Талас",
+    "jalal_abad": "Жалал-Абад",
+    "traditions": "Traditions",
+    "nomad_life": "Nomad Life",
+    "historical": "Historical",
+    "mountains": "Mountains",
+    "winter": "Winter",
+
+    "upload_video_text": "MPEG, MOV жана AVI видеолору 300 МБ чейин жана минималдуу көлөмү 1920x800 пиксел. Клиптер 60 секунддан ашпашы керек.",
+    "upload_image_text": "JPG, PNG, PSD, AI жана SVG сүрөттөрү 40 МБ чейин, бир тарабында кеминде 3000 пиксел менен. Сүрөттүн сапаты боюнча көрсөтмөлөр...",
+    "upload_model_text": "Биз FBX, OBJ, BLEND, STL жана башкаларды колдойбуз",
+    "drag_drop": "Бул жакка ташта",
+    "browse": "Карап чыгуу"
+
+}

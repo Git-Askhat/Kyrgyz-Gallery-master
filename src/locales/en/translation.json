@@ -1,0 +1,35 @@
+{
+    "photos": "Photos",
+    "videos": "Videos",
+    "vectors": "Vectors",
+    "3d-models": "3D models",
+    "models": "3D models",
+    "language": "Change language",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up",
+    "sign-out": "Sign out",
+    "about-us": "About us",
+    "upload": "Upload",
+    "fqa": "FQA",
+    "search_text": "Search images, videos and 3D models",
+
+    "chuy": "Chuy",
+    "issyk_kul": "Issyk-Kul",
+    "naryn": "Naryn",
+    "osh": "Osh",
+    "batken": "Batken",
+    "talas": "Talas",
+    "jalal_abad": "Jala-Abad",
+    "traditions": "Traditions",
+    "nomad_life": "Nomad Life",
+    "historical": "Historical",
+    "mountains": "Mountains",
+    "winter": "Winter",
+
+    "upload_video_text": "MPEG, MOV, and AVI videos up to 300 MB and a minimum resolution of 1920x800 pixels. Clips should be no longer than 60 seconds.",
+    "upload_image_text": "JPG, PNG, PSD, AI, and SVG images up to 40 MB with at least 3000 pixels along one side. Image Quality Guidelines...",
+    "upload_model_text": "We support FBX, OBJ, BLEND, STL, and others",
+    "browse": "Browse",
+    "drag_drop": "Drag & Drop"
+
+}
